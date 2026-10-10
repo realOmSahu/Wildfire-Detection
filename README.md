@@ -1,7 +1,7 @@
 <h1 align="center">Wildfire Detection System 🔥</h1>
 
 <div align="center">
-  
+   
 [![Python](https://img.shields.io/badge/Python-3.10.13-blue.svg?logo=python)](https://www.python.org/downloads/release/python-31013/)
 [![Flask](https://img.shields.io/badge/Flask-3.0.3-lightgrey.svg?logo=flask)](https://flask.palletsprojects.com/en/3.0.x/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16.1-orange.svg?logo=tensorflow)](https://www.tensorflow.org/)
@@ -34,16 +34,16 @@ Wildfires pose a significant environmental and economic threat worldwide. Their 
 
 ### Key Facts:
 
-- **Global Impact**: Wildfires have caused devastating damage across various regions, from the Amazon Rainforest to Australia. In 2020, wildfires in California alone burned over 4.2 million acres【[Cal Fire](https://www.fire.ca.gov/incidents/2020/)】.
-- **Frequency**: Over 100,000 wildfires occur annually in the U.S. alone【[National Geographic](https://www.nationalgeographic.com/environment/article/wildfires)】.
-- **Economic Impact**: Wildfires cause an estimated $5 billion in damage annually in the U.S.【[Insurance Information Institute](https://www.iii.org/fact-statistic/facts-statistics-wildfires)】.
-- **Climate Change**: Rising global temperatures and drier conditions are significantly increasing the risk and severity of wildfires【[NASA](https://climate.nasa.gov/news/2878/the-link-between-climate-change-and-wildfires/)】.
+- **Global Impact**: Wildfires have caused devastating damage across various regions, from the Amazon Rainforest to Australia. In 2020, wildfires in California alone burned over 4.2 million acres.
+- **Frequency**: Over 100,000 wildfires occur annually in the U.S. alone.
+- **Economic Impact**: Wildfires cause an estimated $5 billion in damage annually in the U.S.
+- **Climate Change**: Rising global temperatures and drier conditions are significantly increasing the risk and severity of wildfires.
 
-These alarming statistics underscore the urgent need for efficient wildfire detection and monitoring systems. Our **Wildfire Detection System** aims to address this need by leveraging cutting-edge technology to provide early detection and alerts, potentially saving lives and reducing damage.
+These alarming statistics underscore the urgent need for efficient wildfire detection and monitoring systems. Our **Wildfire Detection System** aims to address this need by leveraging cutting-edge technologies and data-driven models.
 
 ## Project Overview 🚀
 
-This project presents an innovative solution combining satellite imagery, camera feeds, and weather data to predict the risk of wildfires. Using advanced deep learning techniques, our system performs accurate predictions and provides timely alerts through a user-friendly Flask application. 
+This project presents an innovative solution combining satellite imagery, camera feeds, and weather data to predict the risk of wildfires. Using advanced deep learning techniques, our system performs robust feature extraction and classification to detect potential fire events early.
 
 Our models include:
 - **Satellite Classification CNN**: Using ResNet50v2, this model detects wildfire probabilities from satellite images with an accuracy of 97%.
@@ -69,7 +69,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ZephyrusBlaze/Wildfire-Detection
+   git clone https://github.com/realOmSahu/Wildfire-Detection
    cd Wildfire-Detection
    ```
 
@@ -146,7 +146,7 @@ Once the application is running, navigate to the homepage to explore the feature
 │       ├── alert.html  # Template for alert page
 │       ├── base.html  # Base template
 │       ├── detect_camera.html  # Template for camera detection page
-│       ├── detect_satellite.html  # Template for satellite detection page
+│       ├── detect_satellite.html  # Template for satellite image detection
 │       └── home.html  # Template for homepage
 ```
 
